@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "Minecraft (Minecraft 1.21)",
-    "description": "Minecraft Running Minecraft 1.21 (Fabric v0.14.13)",
+    "description": "Minecraft Running Minecraft 1.21 (Fabric v0.17.3)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {
@@ -15,7 +15,7 @@
     "autoconnect": false
   },
   "fabric": {
-    "version": "0.14.13"
+    "version": "0.17.3"
   },
   "untrackedFiles": []
 }

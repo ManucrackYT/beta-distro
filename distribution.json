@@ -10,7 +10,7 @@
     {
       "id": "Minecraft-1.21",
       "name": "Minecraft (Minecraft 1.21)",
-      "description": "Minecraft Running Minecraft 1.21 (Fabric v0.14.13)",
+      "description": "Minecraft Running Minecraft 1.21 (Fabric v0.17.3)",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -24,113 +24,83 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.14.13",
+          "id": "net.fabricmc:fabric-loader:0.17.3",
           "name": "Fabric (fabric-loader)",
           "type": "Fabric",
           "artifact": {
-            "size": 819198,
-            "MD5": "79a1a969d01dd9361f505784d8d47381",
-            "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/fabric-loader/0.14.13/fabric-loader-0.14.13.jar"
+            "size": 1917330,
+            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
+            "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
           },
           "subModules": [
             {
-              "id": "1.21-fabric-0.14.13",
+              "id": "1.21-fabric-0.17.3",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 1177,
-                "MD5": "842a3559f849aa8928413cd56b52ba00",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/versions/1.21-fabric-0.14.13/1.21-fabric-0.14.13.json"
+                "size": 2841,
+                "MD5": "616d651dc7af1f90a39ff656ce2c1495",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/versions/1.21-fabric-0.17.3/1.21-fabric-0.17.3.json"
               }
             },
             {
-              "id": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
-              "name": "Fabric (tiny-mappings-parser)",
-              "type": "Library",
-              "artifact": {
-                "size": 82671,
-                "MD5": "2ecb50617a3a012062e53ca4cda50936",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.11.4+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1449377,
-                "MD5": "82a550405ad18aca7233e126203fa76c",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:tiny-remapper:0.8.2",
-              "name": "Fabric (tiny-remapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 216774,
-                "MD5": "8d42acb6a5ee7e7f5c4a8bf36700e16b",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:access-widener:2.1.0",
-              "name": "Fabric (access-widener)",
-              "type": "Library",
-              "artifact": {
-                "size": 30866,
-                "MD5": "b10766a61b0a230c06497a0bb96acd9d",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.4",
+              "id": "org.ow2.asm:asm:9.9",
               "name": "Fabric (asm)",
               "type": "Library",
               "artifact": {
-                "size": 122445,
-                "MD5": "ffa64f03a23a4823d98703e6ce6ff397",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm/9.4/asm-9.4.jar"
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.4",
+              "id": "org.ow2.asm:asm-analysis:9.9",
               "name": "Fabric (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 34331,
-                "MD5": "707cb3616c99af872dcdd00801723600",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.jar"
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.4",
+              "id": "org.ow2.asm:asm-commons:9.9",
               "name": "Fabric (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72781,
-                "MD5": "bf0034c3d79a244121380da0308c5ec8",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.jar"
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.4",
+              "id": "org.ow2.asm:asm-tree:9.9",
               "name": "Fabric (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 52665,
-                "MD5": "664a67683cc12753e69fce43af328204",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar"
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.4",
+              "id": "org.ow2.asm:asm-util:9.9",
               "name": "Fabric (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 91549,
-                "MD5": "3e671d779360f8053109ab99ee169915",
-                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-util/9.4/asm-util-9.4.jar"
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://manucrackyt.github.io/beta-distro/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
               }
             },
             {
