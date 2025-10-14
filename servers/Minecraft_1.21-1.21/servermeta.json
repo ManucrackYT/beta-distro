@@ -2,8 +2,8 @@
   "$schema": "file:///D:/LapsusDistro/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "^Minecraft^ 1.21^ (Minecraft 1.21)",
-    "description": "^Minecraft^ 1.21^ Running Minecraft 1.21 (Fabric v0.17.3)",
+    "name": "Minecraft_1.21 (Minecraft 1.21)",
+    "description": "Minecraft_1.21 Running Minecraft 1.21 (Fabric v0.17.3)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {

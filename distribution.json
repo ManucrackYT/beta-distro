@@ -8,9 +8,9 @@
   },
   "servers": [
     {
-      "id": "^Minecraft^ 1.21^-1.21",
-      "name": "^Minecraft^ 1.21^ (Minecraft 1.21)",
-      "description": "^Minecraft^ 1.21^ Running Minecraft 1.21 (Fabric v0.17.3)",
+      "id": "Minecraft_1.21-1.21",
+      "name": "Minecraft_1.21 (Minecraft 1.21)",
+      "description": "Minecraft_1.21 Running Minecraft 1.21 (Fabric v0.17.3)",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -39,7 +39,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2841,
-                "MD5": "454f13de0de29d9d4a87cf28ed255821",
+                "MD5": "21fd0630436fb0e77af522c5669c1963",
                 "url": "https://manucrackyt.github.io/beta-distro/repo/versions/1.21-fabric-0.17.3/1.21-fabric-0.17.3.json"
               }
             },
