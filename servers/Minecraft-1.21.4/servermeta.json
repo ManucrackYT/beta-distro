@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "Minecraft (Minecraft 1.21.4)",
-    "description": "Minecraft Running Minecraft 1.21.4 (Forge v54.1.0)",
+    "description": "Minecraft Running Minecraft 1.21.4 (Fabric v0.16.10)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {
@@ -14,8 +14,8 @@
     "mainServer": false,
     "autoconnect": false
   },
-  "forge": {
-    "version": "54.1.0"
+  "fabric": {
+    "version": "0.16.10"
   },
   "untrackedFiles": []
 }
